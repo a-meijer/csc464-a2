@@ -1,0 +1,15 @@
+Andrew Meijer V00805554
+CSC 464 A01 UVIC Assignment 2
+Problem 1 Description.
+This file contains a short description of the implementation for vector clocks.
+I decided to use Golang for my solution because of the easy-to-use built-in
+channels for concurrent threads. 
+
+I referred to the internet article at this URL for guidance:
+https://medium.com/@balrajasubbiah/lamport-clocks-and-vector-clocks-b713db1890d7
+
+To demonstrate the implementation of Vector Clocks, I will have three threads
+with vector clocks that interact concurrently. The threads will print out Vector
+Timestamps according to the example from the URL I mentioned. The same example
+is also shown on the Wikipedia page for Vector Clocks. I have also included an
+image of the example in the Github repository titled vector_clocks_example.png 
