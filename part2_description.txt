@@ -1,0 +1,13 @@
+Andrew Meijer V00805554
+CSC 464 A01 UVIC Assignment 2
+Problem 2 Description.
+
+The OM(m) algorithm for the Byzantine Generals Problem involves having all of
+the generals broadcast messages to one another. I decided to use Golang for this because
+channels allow for easy communication between threads.
+Unfortunately, I couldn't find a way to build new channels according to a user input.
+So for this problem, I have implemented a solution just with 3 generals, where 1 general is traitorous.
+To test my solution, I ran it with both RETREAT and ATTACK commands.
+UPDATE Nov. 22:
+I couldn't find a way to have the generals operate concurrently, both receiving and sending messages without deadlock.
+Hence, I have no solution.
